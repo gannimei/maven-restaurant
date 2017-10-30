@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>NoodlesServlet</servlet-name>
+  	<display-name>NoodlesServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.netease.NoodlesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>NoodlesServlet</servlet-name>
+  	<url-pattern>/NoodlesServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
